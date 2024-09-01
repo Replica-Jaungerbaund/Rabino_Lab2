@@ -14,7 +14,7 @@ class Cylinder{
     this.height = height;
   }
   // Area of the Cylinder
-  public void allOfCyclinderArea(){
+  public void allOfCylinderArea(){
     double area = area();
     System.out.println("Area of the Cylinder is: " + area);
   }
@@ -33,7 +33,7 @@ class CylinderVol extends Cylinder{
     super(radius, height);
   }
   // Volume of the Cylinder
-  public void allOfCyclinderVol(){
+  public void allOfCylinderVol(){
     double volume = volume();
     System.out.println("Volume of the Cylinder is: " + volume);
   }
@@ -56,9 +56,9 @@ public class Rabino_Lab2{
       int height = input.nextInt();
       
       Cylinder merged = new Cylinder(radius, height);
-      merged.allOfCyclinderArea();
+      merged.allOfCylinderArea();
       
-      CylinderVol megered = new CylinderVol(radius, height);
-      megered.allOfCyclinderVol();
+      CylinderVol merged = new CylinderVol(radius, height);
+      merged.allOfCylinderVol();
   }
 }

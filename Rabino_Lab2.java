@@ -58,7 +58,7 @@ public class Rabino_Lab2{
       Cylinder merged = new Cylinder(radius, height);
       merged.allOfCylinderArea();
       
-      CylinderVol merged = new CylinderVol(radius, height);
-      merged.allOfCylinderVol();
+      CylinderVol megered = new CylinderVol(radius, height);
+      megered.allOfCylinderVol();
   }
 }
